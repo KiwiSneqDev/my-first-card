@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #d5c6ff;
+}
+
+.firstcard {
+  background-color: white;
+  border-radius: 50px;
+  width: 538px;
+  height: 717px;
+  padding: 89px 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.circle-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.email {
+  display: flex;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #26235c;
+  width: 270px;
+  height: 44px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #252525;
+}
+
+.h2 {
+  font-size: 23px;
+  color: #26235c;
+}
+
+.aboutme {
+  font-size: 20px;
+  color: #252525;
+  text-align: center;
+}
