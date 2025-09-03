@@ -8,6 +8,13 @@ html {
 
 body {
   background-color: #d5c6ff;
+  display: flex;
+  justify-content: center;
+}
+.bodylogo{
+  position: absolute;
+  bottom: 0;
+  right: -81px;
 }
 
 .firstcard {
@@ -19,7 +26,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 
+}
+.icon{
+  position: absolute;
+  left: 22px;
+  top: 22px;
+}
+.borderfooter{
+  position: absolute;
+  bottom: 0px;
 }
 
 .mainbox {
